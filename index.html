@@ -3,49 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的第一个付费网站</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-        }
-        h1 {
-            color: #007bff;
-        }
-        p {
-            font-size: 1.1em;
-        }
-        .button {
-            display: inline-block;
-            background-color: #28a745;
-            color: white;
-            padding: 10px 20px;
-            margin-top: 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .button:hover {
-            background-color: #218838;
-        }
-    </style>
+    <title>高级学习资料包 | 独家内容</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>欢迎来到我的付费网站！</h1>
-        <p>这里有独家内容，等待您的解锁。</p>
-        <p>体验不一样的精彩！</p>
-        <a href="#" class="button">立即订阅！</a>
-    </div>
+    <header>
+        <div class="container">
+            <h1>独家知识库</h1>
+            <nav>
+                <ul>
+                    <li><a href="#product-details">产品详情</a></li>
+                    <li><a href="#features">核心特点</a></li>
+                    <li><a href="#pricing">定价</a></li>
+                    <li><a href="#faq">常见问题</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h2>解锁你的未来：<br>高级学习资料包</h2>
+                <p>掌握行业前沿知识，提升个人竞争力，助你轻松实现职业目标！</p>
+                <a href="#pricing" class="btn btn-primary">立即获取！</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-details" class="section-padded">
+        <div class="container content-grid">
+            <div class="product-image">
+                <img src="images/product-image.jpg" alt="高级学习资料包封面">
+            </div>
+            <div class="product-info">
+                <h3>关于《高级学习资料包》</h3>
+                <p>这份资料包是为渴望在快速变化的数字时代中保持领先地位的你量身定制的。我们深入研究了最新的行业趋势、技术突破和成功案例，将其提炼成一套易于理解且可操作的学习资源。</p>
+                <p>它不仅仅是一堆文档，更是一套为你量身定制的思维框架和实践指南，助你在最短时间内掌握核心技能，应对未来的挑战。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section-padded bg-light">
+        <div class="container">
+            <h2>核心特点</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-filled/50/007bff/lightning-bolt.png" alt="Icon">
+                    <h4>实时更新</h4>
+                    <p>内容紧跟时代步伐，确保你学习的都是最新、最实用的知识。</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-filled/50/007bff/books.png" alt="Icon">
+                    <h4>深度解析</h4>
+                    <p>拒绝肤浅，每项主题都经过深入研究和多角度剖析。</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-filled/50/007bff/task.png" alt="Icon">
+                    <h4>实战案例</h4>
+                    <p>结合真实案例，让你理论与实践相结合，学以致用。</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://img.icons8.com/ios-filled/50/007bff/customer-service.png" alt="Icon">
+                    <h4>专家答疑</h4>
+                    <p>专属社群，定期邀请行业专家在线答疑，解决你的困惑。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section-padded">
+        <div class="container">
+            <h2>选择你的计划</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>基础版</h3>
+                    <p class="price">¥299</p>
+                    <ul>
+                        <li><span class="check-icon">&#10003;</span> 核心学习资料</li>
+                        <li><span class="check-icon">&#10003;</span> PDF格式下载</li>
+                        <li><span class="check-icon">&#10003;</span> 一年内容更新</li>
+                        <li class="disabled"><span class="cross-icon">&#10006;</span> 专家答疑</li>
+                        <li class="disabled"><span class="cross-icon">&#10006;</span> 专属社群</li>
+                    </ul>
+                    <button class="btn btn-secondary">立即购买</button>
+                </div>
+                <div class="price-card featured">
+                    <h3>高级版</h3>
+                    <p class="price">¥599</p>
+                    <p class="most-popular">最受欢迎！</p>
+                    <ul>
+                        <li><span class="check-icon">&#10003;</span> **全部**核心学习资料</li>
+                        <li><span class="check-icon">&#10003;</span> 多种格式下载 (PDF, EPUB, MOBI)</li>
+                        <li><span class="check-icon">&#10003;</span> **终身**内容更新</li>
+                        <li><span class="check-icon">&#10003;</span> 专属专家答疑通道</li>
+                        <li><span class="check-icon">&#10003;</span> 独家学习社群访问权限</li>
+                    </ul>
+                    <button class="btn btn-primary">立即购买</button>
+                </div>
+                <div class="price-card">
+                    <h3>企业版</h3>
+                    <p class="price">定制</p>
+                    <ul>
+                        <li><span class="check-icon">&#10003;</span> 团队定制化内容</li>
+                        <li><span class="check-icon">&#10003;</span> 私有化部署</li>
+                        <li><span class="check-icon">&#10003;</span> 专属客户经理</li>
+                        <li><span class="check-icon">&#10003;</span> 企业级培训服务</li>
+                        <li><span class="check-icon">&#10003;</span> 数据报告与分析</li>
+                    </ul>
+                    <button class="btn btn-secondary">联系我们</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="section-padded bg-light">
+        <div class="container">
+            <h2>常见问题</h2>
+            <div class="faq-item">
+                <button class="accordion">购买后如何获取资料？</button>
+                <div class="panel">
+                    <p>支付成功后，您将立即收到一封包含资料下载链接的邮件。同时，您也可以在您的个人中心页面进行下载。</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="accordion">资料会定期更新吗？</button>
+                <div class="panel">
+                    <p>是的，高级版和企业版用户将享受终身免费更新，基础版用户可享受一年免费更新服务。</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="accordion">我可以申请退款吗？</button>
+                <div class="panel">
+                    <p>为了保障知识产权，数字产品一经售出，非质量问题概不退款。请在购买前仔细阅读产品详情。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 独家知识库. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for FAQ accordion
+        var accordions = document.getElementsByClassName("accordion");
+        for (var i = 0; i < accordions.length; i++) {
+            accordions[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 </html>
